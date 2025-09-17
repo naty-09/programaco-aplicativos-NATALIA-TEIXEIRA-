@@ -1,0 +1,123 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package atividade02_rogerio_natalinhalinda1;
+
+ import java.util.Scanner;
+ import java.lang.Math;
+
+
+public class Atividade02_rogerio_natalinhalinda1 {
+
+
+    public static void main(String[] args) {
+        double raio, a, c;
+        Scanner entrada = new  Scanner(System.in);
+        System.out.print("Digite o valor do raio");
+        raio = entrada.nextDouble();
+        a = Math.PI * (Math.pow(raio, 2));
+        c = 2 * Math. PI * raio; 
+        
+        System.out.println("Area = " + a);
+        System.out.println("Circunferencia = " + c);
+        
+        
+        //2
+        
+        double peso,altura,imc;
+        peso = entrada.nextDouble();
+        altura = entrada.nextDouble();
+        imc = peso/(Math.pow(altura, 2));
+        System.out.println("imc = " + imc);
+        
+        //3
+        
+        double cateto1, cateto2, hip, calc;
+        cateto1 = entrada.nextDouble();
+        cateto2 = entrada.nextDouble();
+        calc = (Math.pow(cateto1 , 2)) + (Math.pow(cateto2, 2));
+        hip = Math.pow(calc, 2);
+        
+        //4
+        double vreal, vdolar, calcu, inteiros, troco;
+        vreal = entrada.nextDouble();
+        vdolar = entrada.nextDouble();
+        calcu = vreal / vdolar;
+        inteiros = Math.floor(calcu);
+        troco = (calc - inteiros)* vreal;
+        System.out.print("o troco e : "+ troco);
+        //5
+        int n, jogada1, jogada2, s;
+        
+        n = entrada.nextInt();
+        jogada1 = entrada.nextInt();
+        jogada2 = entrada.nextInt();
+        s = (jogada1 + jogada2)/n;
+        System.out.print("a media é:" + s);
+        System.out.print(Math.max(jogada1, jogada2));
+        System.out.print(Math.min(jogada1, jogada2));
+        System.out.print("o maior numro é:");
+        System.out.print("o menor numero é:");
+        
+       //6
+       
+        double graus,sen,cos,tan,rad;
+        graus = entrada.nextDouble();
+        rad = Math.toRadians(graus);
+        sen = Math.sin(rad);
+        cos = Math.cos(rad);
+        tan = Math.tan(rad);
+        
+        System.out.print("o seno é:"+ sen);
+        System.out.print("o cosseno é:"+ cos);
+        System.out.print("o tangente é:"+ tan);
+        
+        
+        
+        //7
+        double x1,x2,y1,y2,calcul;
+        x1 = entrada.nextDouble();
+        x2 = entrada.nextDouble();
+        y1 = entrada.nextDouble();
+        y2 = entrada.nextDouble();
+        calcul = Math.sqrt(Math.pow((x2 + x1),2))+ (Math.pow((y2 + y1),2));
+        System.out.print("o numero é:"+ calcul);
+        
+               
+        //8
+        double n1,n2,n3,media,soma,dif;
+        n1 = entrada.nextDouble();
+        n2 = entrada.nextDouble();
+        n3 = entrada.nextDouble();
+        media = (n1+n2+n3)/3;
+        soma = Math.abs(n1)+ Math.abs(n2)+Math.abs(n3);
+        dif = Math.abs(n1-n3);
+        System.out.print("a media é:"+ media);
+        System.out.print("a soma é:"+ soma);
+        System.out.print("a diferenca é:"+ dif);
+        
+        //9
+        int d, e, f;
+        double q1, q2, delta;
+        d = 2;
+        e = 3;
+        f = 2;
+        delta = Math.pow(e,2)-(4*d*f);
+        q1 = (-e)+Math.sqrt(delta)/(2*d);
+        q2 = (-e)-Math.sqrt(delta)/(2*d);
+        
+        System.out.print("resultado de delta é:" + delta);
+        System.out.print("resultado de q1 é:"+ q1);
+        System.out.print("resultado de q2 é:"+ q2);
+        
+        //10
+        
+        double far,cel;
+        System.out.print("digite o valor em fahrenheit F:");
+        far = entrada.nextDouble();
+        cel = (far-32)/1.8;
+        System.out.print("o valor de F "+far+" em Fahrenheit é equivalente a "+cel+" C");
+    }
+    
+}
