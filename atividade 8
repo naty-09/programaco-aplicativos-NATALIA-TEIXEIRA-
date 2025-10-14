@@ -18,16 +18,19 @@ public class Atividade_08_ {
      * @param args the command line arguments
      */
 
-// ================= MÉTODOS DE CÁLCULO =================
+   //    public static class Questao_01 {
     // public int calcula_delta(int a,int b,int c){
     //     int calc=(Math.pow(b,2)-(4*a*c));
     //     return calc;
     // }
+//}
 
-    //public int soma(int n1, int n2){
+
+    //    public static class Questao_02 {
+     //public int soma(int n1, int n2){
     //     return n1+n2;
     // }
-
+//}
     // public int subtracao(int a, int b){
     //     return a-b;
     // }
@@ -40,7 +43,7 @@ public class Atividade_08_ {
     //     return c/d;
     // }
 
-    // ==================== MÉTODO NOME DO MÊS ====================
+   //    public static class Questao_03 {
     // public String nomeMmês(int mes){
     //     switch(mes){
     //         case 1: return "janeiro";
@@ -58,7 +61,8 @@ public class Atividade_08_ {
     //         default: return "Mês inválido";
     //     }
     // }
-    
+//} 
+
   //  public String nomeMesArray(int mes) {
     //    String[] nomes = {
       //      "Janeiro", "Fevereiro", "Março", "Abril",
@@ -69,7 +73,7 @@ public class Atividade_08_ {
        // else return "Mês inválido";
    // }
 
-    // ==================== MÉTODO SALÁRIO FUNCIONÁRIO ====================
+     //    public static class Questao_04 {
  //   public void salarioFuncionario() {
   //      Scanner entrada = new Scanner(System.in);
    //     double media_salarial = 1500.00;
@@ -90,8 +94,9 @@ public class Atividade_08_ {
     //    System.out.println("\nTotal de salários lidos: " + salario.length);
     //    System.out.println("Funcionários com salário <= R$ " + media_salarial + ": " + contadorAbaixoOuIgual);
    // }
+//}
 
-    // ==================== MÉTODO PESO ====================
+      //    public static class Questao_05{
     // public void peso() {
     //     Scanner entrada = new Scanner(System.in);
     //     double[] peso = new double[10];
@@ -115,8 +120,9 @@ public class Atividade_08_ {
     //
     //     System.out.println("\nO menor peso e: " + menor);
     // }
+//}
 
-    // ==================== MÉTODO SEQUÊNCIA FIBONACCI ====================
+      //    public static class Questao_06 {
     // public void sequencia() {
     //     Scanner entrada = new Scanner(System.in);
     //     System.out.print("Digite um número inteiro: ");
@@ -133,10 +139,11 @@ public class Atividade_08_ {
     //         b = proximo;
     //     }
     // }
-    
-    // ==================== MÉTODO NOME  POSIÇÃO ====================
+//}
+
+      //    public static class Questao_07 {
       
-  //  public int nomes(String yuri) {
+  //  public int nomes(String natalia) {
       //  Scanner entrada = new Scanner(System.in);
       //  String[] nome = new String[10];
 
@@ -145,7 +152,7 @@ public class Atividade_08_ {
        //     nome[i] = entrada.nextLine();
 
             
-     //       if (nome[i].equals(yuri)) {
+     //       if (nome[i].equals(natalia)) {
       //          return i; 
      //       }
     //    }
@@ -153,7 +160,7 @@ public class Atividade_08_ {
         
      //   return -1;
    // }
-      
+//}  
    
 
 
@@ -234,7 +241,7 @@ public class Atividade_08_ {
       //  System.out.print("Digite a raça do pet: ");
      //   String racaPet = entrada.nextLine();
 
-      //  System.out.print("Digite a idade do pet (em anos): ");
+      //  System.out.print("Digite a idade do pet: ");
       //  int idadePet = entrada.nextInt();
      //   entrada.nextLine();
 
@@ -256,9 +263,9 @@ public class Atividade_08_ {
        // int op = entrada.nextInt();
        // entrada.nextLine(); 
 
-     //   System.out.println("===================================");
+     //   System.out.println("===========================");
       //  System.out.println("FICHA DE ATENDIMENTO - AMIGO FIEL");
-      //  System.out.println("===================================");
+      //  System.out.println("===========================");
       //  novoPet.exibirDados();
       //  System.out.println("------------------------------------");
 
@@ -269,16 +276,16 @@ public class Atividade_08_ {
          //   case 4: System.out.println("Procedimento.....: Consulta veterinária"); break;
           //  default: System.out.println("Opção inválida");
        // }
-      //  System.out.println("=============================================\n");
+      //  System.out.println("=====================================\n");
 
-  // ====================   ALUNO ====================
+  // =================ALUNO ================
     //    Aluno Natalia = new Aluno("ADS123", "NATALIA", 7.0, 8.0, 4.0);
      //   natalia.exibirInfo();
 
    //     entrada.close();
   //  }
 //}
-/// ==================== TESTE DE PROVAS ====================
+/// ================= TESTE DE PROVAS =================
     //    Gabarito g = new Gabarito();
    //     Prova p1 = new Prova(g);
     //    Prova p2 = new Prova(g);
@@ -286,12 +293,7 @@ public class Atividade_08_ {
     //    System.out.println("\n===== Aluno 1 =====\n");
     //    for (int i = 0; i < 15; i++) {
             
-            
-              
-            
-            
-             
-            
+               
             
         //    System.out.print("Digite uma resposta para questão " + (i + 1) + ": ");
          //   char rp = entrada.next().charAt(0);
